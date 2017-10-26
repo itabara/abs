@@ -1,3 +1,8 @@
+### Absence Recording API ##
+
+Based on: https://app.swaggerhub.com/apis/itabara/absences/1.0.0
+
+#### Environment urls:
 ```
 https://abs.iulian.co.uk/api/ping
 ```
@@ -6,6 +11,11 @@ https://abs.iulian.co.uk/api/ping
 http://localhost:3000/api/ping
 ```
 
+```
+http://localhost:3000/docs/
+```
+
+#### Samples
 1. login as admin
 ```
 curl -X POST \
