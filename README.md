@@ -59,5 +59,16 @@ curl -X DELETE \
 ```
 
 5. add absence days
+```
+  To be added
+```
 
 6. get today's absences
+```
+curl -X GET \
+  http://localhost:3000/api/absences \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb2RhZGR5IiwiaXNzIjoiaXVsaWFuLmNvLnVrIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTA5MDM0Nzg0fQ.4LF_F4E5ZoFukCH7QKLS71s2w86_Na0uTrq2gWKdqoA' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: afe58a6d-5df5-1e29-8aac-b7241126721b'
+```
