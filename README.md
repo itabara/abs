@@ -5,6 +5,7 @@ Based on: https://app.swaggerhub.com/apis/itabara/absences/1.0.0
 #### Environment urls:
 ```
 https://abs.iulian.co.uk/api/ping
+http://abs.heg-development.com/api/ping
 ```
 
 ```
