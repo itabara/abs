@@ -1,0 +1,12 @@
+{
+  "database": {
+    "dbName": "aps",
+    "username": "aps",
+    "password": "********",
+    "options":{
+      "host": "mysql",
+      "port": 3306,
+      "dialect": "mysql"
+    }
+  }
+}
