@@ -70,7 +70,19 @@ curl -X DELETE \
 
 5. add absence days
 ```
-  To be added
+curl -X POST \
+http://localhost:3000/api/absences \
+-H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb2RhZGR5IiwiaXNzIjoiaXVsaWFuLmNvLnVrIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTA5MDM0Nzg0fQ.4LF_F4E5ZoFukCH7QKLS71s2w86_Na0uTrq2gWKdqoA' \
+-H 'cache-control: no-cache' \
+-H 'content-type: application/json' \
+-H 'postman-token: 0fca48ca-31e9-5540-8b5b-27aa56acc71d' \
+-d '{
+"email_address": "iulian.tabara@gmail.com",
+"days_off": [
+  "01/02/2017",
+  "02/03/2017"
+]
+}'
 ```
 
 6. get today's absences
