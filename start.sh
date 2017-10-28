@@ -2,7 +2,9 @@
 echo "Starting abs container..."
 docker run -d \
     --name abs \
-    -p "8432:3000" \
+    --network apps-net \
+    -p "9195:3000" \
+    -e "NODE_ENV=production" \
     -e "VIRTUAL_HOST=abs.iulian.co.uk" \
     -e "VIRTUAL_PORT=3000" \
     -e "LETSENCRYPT_HOST=abs.iulian.co.uk" \
