@@ -1,4 +1,4 @@
-FROM node:7.2.1-alpine
+FROM node:8-alpine
 
 # Update
 RUN apk add --update bash
